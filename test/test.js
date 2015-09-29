@@ -39,4 +39,8 @@ describe('add without setup/teardown', function() {
 	it('should be twelve when adding 7 to 5', function() {
 		add(num, 7).should.equal(12);
 	});
+
+	it('should be zero when adding two zeroes', function() {
+		add(0, 0).should.equal(0);
+	});
 })
