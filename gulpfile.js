@@ -1,4 +1,8 @@
+"use strict";
+
 var gulp = require('gulp');
+var mocha = require('gulp-mocha');
+var gutil = require('gulp-util');
 var nodemon = require('gulp-nodemon');
 
 gulp.task('default', function() {
